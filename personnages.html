@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Personnages</title>
+</head>
+
+<body>
+
+    <header class="mx-2 mt-1">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <h1>Liste des Personnages principaux</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active fs-5" aria-current="page" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active text-primary fs-5" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Chronologie
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item fs-5" href="episodes.html">Episodes</a></li>
+                                <li><a class="dropdown-item fs-5" href="#">Personnages</a></li>
+                                <li>
+                                    <hr class="mx-2 dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item fs-5 fst-italic disabled" href="#">Blood and
+                                        Chrome (coming soon)</a></li>
+                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link active fs-5" href="soundtrack.html">OST</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="mx-2 mb-2 rounded">
+        <label id="searchLabel" for="searchInput"><span class="sr-only">Recherche</span></label>
+        <input class="form-control" id="searchInput" aria-labelledby="searchLabel" name="searchInput" type="text"
+            placeholder="Recherche..." onclick="shadowMe()">
+    </div>
+
+
+    <div class="container-fluid my-3" id="letMeKnow">
+
+        <div class="card rounded shadow">
+            <img src="img/personnages.jpg" class="card-img-top mx-auto" alt="img-card">
+        </div>
+
+
+        <div class="card rounded shadow mb-4" id="marge">
+            <img src="img/adama.jpg" class="card-img-top mx-auto" alt="img-card">
+            <h4 class="card-header mt-2 fs-1">William Adama </h4>
+            <div class="card-body fs-4">
+                <p class="card-text ">William Adama, a veteran of the First Cylon War, is the commanding officer of
+                    the
+                    Battlestar Galactica, and has the longest tenure as the highest-ranking officer in the Colonial
+                    Fleet after the Fall of the Twelve Colonies
+
+                </p>
+
+            </div>
+        </div>
+
+
+        <div class="card rounded shadow my-5">
+            <img src="img/roslin.png" class="card-img-top mx-auto" alt="img-card">
+            <h4 class="card-header mt-2 fs-1">Laura Roslin </h4>
+            <div class="card-body fs-4">
+                <p class="card-text ">Laura Roslin serves as the Secretary of Education at the time of the Cylon
+                    attack.
+                    She is also believed by some in the Fleet to be a religious figure essential to the fulfillment
+                    of
+                    the Pythian prophecy.
+
+                </p>
+
+            </div>
+        </div>
+        <div class="card rounded shadow my-5">
+            <img src="img/Starbuck.jpg" class="card-img-top mx-auto" alt="img-card">
+            <h4 class="card-header mt-2 fs-1">Kara "Starbuck" Thrace </h4>
+            <div class="card-body fs-4">
+                <p class="card-text ">
+                    Kara "Starbuck" Thrace is a gifted Viper pilot, with an attitude that has hindered her career in
+                    the
+                    Colonial Fleet. However, William Adama has confidence in Thrace's military skills, and she
+                    greatly
+                    aids the Fleet inside and out of the cockpit.
+                </p>
+            </div>
+        </div>
+
+        <div class="card rounded shadow my-5">
+            <img src="img/apollo.jpg" class="card-img-top mx-auto" alt="img-card">
+            <h4 class="card-header mt-2 fs-1">Lee "Apollo" Adama </h4>
+            <div class="card-body fs-4">
+                <p class="card-text ">Leland Joseph Adama, commonly known as Lee Adama or by his callsign, "Apollo",
+                    is
+                    a former Colonial Fleet Reserve officer who is appointed Galactica's CAG after the Cylon attack
+                    the
+                    Twelve. He is the sole surviving son of William Adama.
+
+                </p>
+
+            </div>
+        </div>
+        <div class="card rounded shadow my-5">
+            <img src="img/baltar.jpg" class="card-img-top mx-auto" alt="img-card">
+            <h4 class="card-header mt-2 fs-1">Gaius Baltar </h4>
+            <div class="card-body fs-4">
+                <p class="card-text ">Gaius Baltar is a scientist and computer scientist of genius, living on Caprica,
+                    but native of the planet Aerelon, in the Twelve Colonies of Kobol. He is a somewhat eccentric man,
+                    charming and fond of beautiful women, but fearful and self-centered. He is a personal friend of
+                    President Richard Adar, and works mainly for the government of the Twelve Colonies. He is the
+                    designer of many computer systems for the colonial fleet.
+                </p>
+
+            </div>
+        </div>
+        <div class="card rounded shadow my-5">
+            <img src="img/six.jpg" class="card-img-top mx-auto" alt="img-card">
+            <h4 class="card-header mt-2 fs-1">Number Six </h4>
+            <div class="card-body fs-4">
+                <p class="card-text ">"Number Six" is a humanoid Cylon who plays several key roles in Cylon society.
+                    Stunningly beautiful and highly religious, this highly driven model is marked by a ruthlessness
+                    against all who stand in her way. Number Sixes are typically sensual and use seduction in
+                    infiltration.
+                </p>
+            </div>
+
+
+
+        </div>
+
+        <footer class="mt-5 bg-secondary bg-gradient rounded">
+
+            <div class="col ">
+                <ul class="list-inline text-center py-1">
+                    <li class="list-inline-item"><a class="text-white text-decoration-none"
+                            href="https://www.instagram.com/l_l_lightning">
+                            <h4>IG® - </h4>
+                        </a>
+                    </li>
+                    <li class="list-inline-item"><a class="text-white text-decoration-none"
+                            href="https://t.me/volmemes.com">
+                            <h4>Volmemes® - </h4>
+                        </a>
+                    </li>
+                    <li class="list-inline-item"><a class="text-white text-decoration-none" href="https://mises.org/">
+                            <h4>Mises Institute®</h4>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </footer>
+
+    </div>
+
+
+
+
+
+
+    <!--jquery nécessaire pr fctn search: -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="search.js"></script>
+
+
+
+
+</body>
+
+</html>
